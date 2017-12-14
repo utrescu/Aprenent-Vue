@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="vm">
+       <button v-on:click="primer++">Incrementar el primer</button>
+       <button v-on:click="segon++">Incrementar el segon</button>
+       <button v-on:click="tercer++">Incrementar el tercer</button>
+       <button v-on:click="quart++">Incrementar el qurt</button>
+       <p>Primer: {{ primer }}</p>
+       <p>Segon: {{ segon }}</p>
+       <p>Tercer: {{ tercer }}</p>
+       <p>Quart: {{ quart }}</p>
+       <p>---------------------</p>
+       <p>Total: {{ suma }}</p>
+    </div>
+    <script src="vue.js"></script>
+</body>
+</html>
